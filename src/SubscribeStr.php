@@ -13,6 +13,8 @@ include_once '../vendor/autoload.php';
 class SubscribeStr
 {
     /**
+     * Функция вернгёт строку состоящую с рандомных символов, длинною указанною в параметре
+     * 
      * @param int $cnt - макс число символов в строке
      * @return string
      */
