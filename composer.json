@@ -1,0 +1,21 @@
+{
+  "name":"andruavm/subscribestr",
+  "description": "Random subscribe",
+  "keywords": ["random", "subscribe"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "The Kiung",
+      "email": "theGodExists@god.yes"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "andruavm/random": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "andruavm\\subscribestr\\": "src/"
+    }
+  }
+}
