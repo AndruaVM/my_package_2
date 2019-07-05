@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "andruavm/random": "dev-master"
+    "andruavm/random": "*"
   },
   "autoload": {
     "psr-4": {
