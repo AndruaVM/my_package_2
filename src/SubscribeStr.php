@@ -12,12 +12,15 @@ include_once '../vendor/autoload.php';
  */
 class SubscribeStr
 {
-
-    public function subscribe()
+    /**
+     * @param int $cnt - макс число символов в строке
+     * @return string
+     */
+    public function subscribe(int $cnt = 1)
     {
         $rs = new RandomSymbol();
         $str = '';
-        for ($i=0;$i<32;++$i){
+        for ($i=0;$i<$cnt;++$i){
 
             $str .= $rs->getSymbol();
         }
