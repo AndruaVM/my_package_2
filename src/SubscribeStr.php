@@ -24,4 +24,3 @@ class SubscribeStr
         return $str;
     }
 }
-echo  (new SubscribeStr())->subscribe();
