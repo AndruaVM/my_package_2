@@ -18,7 +18,7 @@ class SubscribeStr
      * @param int $cnt - макс число символов в строке
      * @return string
      */
-    public function subscribe(int $cnt = 1)
+    public function subscribe(int $cnt = 1): string
     {
         $rs = new RandomSymbol();
         $str = '';
