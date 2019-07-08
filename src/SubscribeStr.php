@@ -2,7 +2,9 @@
 namespace andruavm\subscribestr;
 use andruavm\random\RandomSymbol;
 
-include_once '../vendor/autoload.php';
+if(file_exists('../vendor/autoload.php')){
+    include_once '../vendor/autoload.php';
+}
 
 /**
  * Created by PhpStorm.
@@ -27,3 +29,4 @@ class SubscribeStr
         return $str;
     }
 }
+#echo  (new SubscribeStr())->subscribe(33);
