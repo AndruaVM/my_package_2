@@ -3,6 +3,7 @@ namespace andruavm\subscribestr;
 use andruavm\random\RandomSymbol;
 
 if(file_exists('../vendor/autoload.php')){
+
     include_once '../vendor/autoload.php';
 }
 
