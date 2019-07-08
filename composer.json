@@ -17,5 +17,7 @@
     "psr-4": {
       "andruavm\\subscribestr\\": "src/"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
